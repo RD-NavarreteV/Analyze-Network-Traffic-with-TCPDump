@@ -8,7 +8,7 @@
 <br />•	Add the -G option to specify a time limit for the dump file in seconds.
 <br /><br />Example: tcpdump -n -t -G 600 -w capture.pcap
 <br />This command creates a dump file (capture.pcap) and updates it every 600 seconds (10 minutes).
-<br /><img src="https://i.imgur.com/rBG1Nqq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="-" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br /><br /><h3>2.	Generate Traffic and Test:</h3>
 <br />•	Execute the script (./watch.sh) and generate traffic by accessing the specified website (e.g., skyward66.com).
 <br />•	Observe that the dump file is updated at regular intervals (every 10 minutes) and contains recent traffic.
