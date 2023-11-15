@@ -43,63 +43,54 @@ These are just some examples of tcpdump commands, and the tool offers a wide ran
 Basic Packet Capture:<br /><br />
 -i: Specifies the network interface to capture packets from.
 Example: tcpdump -i eth0: <br/>
-<br />
 <img src="https://i.imgur.com/rBG1Nqq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Capture Packets with Specific Port:<br /><br />
 Capture packets on a specific port.<br />
 Example: tcpdump -i eth0 port 80 
-<br />
 <img src="https://i.imgur.com/UFfT5Is.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Display Packet Details in ASCII:<br /><br />
 -A: Display packet details in ASCII.<br />
 Example: tcpdump -A -i eth0
-<br />
 <img src="https://i.imgur.com/sanKEVS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Capture and Save to a File:<br /><br />
 -w: Write the raw packets to a file for later analysis.<br />
 Example: tcpdump -i eth0 -w output.pcap
-<br />
 <img src="https://i.imgur.com/BeFRfEM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Display Packet Timestamps:<br /><br />
 -tttt: Display timestamps for each packet.<br />
 Example: tcpdump -tttt -i eth0
-  <br />
 <img src="https://i.imgur.com/BzivB1k.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Filter by IP Address:<br /><br />
 Capture packets involving a specific IP address.<br />
 Example: tcpdump -i eth0 host 192.168.1.1
-  <br />
 <img src="https://i.imgur.com/WEo6OEv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Filter by Source or Destination IP:<br /><br />
 Capture packets with a specific source or destination IP address.<br />
 Example: tcpdump -i eth0 src 192.168.1.2
-  <br />
 <img src="https://i.imgur.com/G70XcSO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Capture ICMP (Ping) Packets:<br /><br />
 Capture ICMP packets.<br />
 Example: tcpdump -i eth0 icmp
-  <br />
 <img src="https://i.imgur.com/jMW659Q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Capture Only N Packets:<br /><br />
 -c: Capture only a specified number of packets.<br />
 Example: tcpdump -i eth0 -c 10
-  <br />
 <img src="https://i.imgur.com/BqaPTZ2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
@@ -107,14 +98,12 @@ Display Captured Packets in Real Time:<br /><br />
 -n: Don't resolve hostnames.<br />
 -l: Line-buffered output (useful for real-time display).<br />
 Example: tcpdump -i eth0 -n -l
-<br />
 <img src="https://i.imgur.com/NKM9HhU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Capture Specific Protocol:<br /><br />
 Capture packets of a specific protocol (e.g., tcp, udp, arp).<br />
 Example: tcpdump -i eth0 tcp
-  <br />
 <img src="https://i.imgur.com/HWNjnQB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
