@@ -10,6 +10,22 @@ These are just some examples of tcpdump commands, and the tool offers a wide ran
 <br />
 <h2>Project Tasks</h2>
 <br />
+
+- <b>Task 1: Overview and warm up</b>
+  - [Overview and warm up](https://github.com/RD-NavarreteV/Analyze-Network-Traffic-with-TCPDump/blob/main/README.md)
+ 
+- <b>Task 2: Create shell script and explore more options</b>
+  - [Create shell script and explore more options](https://github.com/RD-NavarreteV/Analyze-Network-Traffic-with-TCPDump/blob/main/README.md)
+ 
+- <b>Task 3: Create and read dump files</b>
+  - [Create and read dump files](https://github.com/RD-NavarreteV/Analyze-Network-Traffic-with-TCPDump/blob/main/README.md)
+ 
+- <b>Task 4: Create sequence of dump files with size and time limits</b>
+  - [Create sequence of dump files with size and time limits](https://github.com/RD-NavarreteV/Analyze-Network-Traffic-with-TCPDump/blob/main/README.md)
+ 
+- <b>Task 5: Advanced expressions for more filtering options</b>
+  - [Advanced expressions for more filtering options](https://github.com/RD-NavarreteV/Analyze-Network-Traffic-with-TCPDump/blob/main/README.md)
+ 
 <br />
 
 <h2>Languages and Utilities Used</h2>
