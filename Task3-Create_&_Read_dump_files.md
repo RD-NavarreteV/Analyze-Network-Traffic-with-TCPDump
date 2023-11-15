@@ -7,7 +7,7 @@
 <h3>1.	Capture Packets and Save to Dump File:</h3>
 <br />•	Execute the TCP dump command with the -w option to write the captured packets to a dump file named capture.pcap.
 <br />tcpdump -n -t -c 10 -w capture.pcap 
-<br /><img src="https://i.imgur.com/rBG1Nqq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="-" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />•	Generate traffic by accessing the specified website (e.g., skyward66.com) and allow TCP dump to capture 10 packets.
 <br /><br /><h3>2.	Explore the Dump File:</h3>
 <br />•	Open the dump file using TCP dump and examine the captured packets:
