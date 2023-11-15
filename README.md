@@ -15,7 +15,7 @@ These are just some examples of tcpdump commands, and the tool offers a wide ran
   - [Overview and warm up](https://github.com/RD-NavarreteV/Analyze-Network-Traffic-with-TCPDump/blob/main/Tasks1-Warm-Up.md)
  
 - <b>Task 2: Create shell script and explore more options</b>
-  - [Create shell script and explore more options](https://github.com/RD-NavarreteV/Task2/blob/main/Create%20Shell%20Script%20.md)
+  - [Create shell script and explore more options](https://github.com/RD-NavarreteV/Analyze-Network-Traffic-with-TCPDump/blob/main/Task2-Create_shell_script.md)
  
 - <b>Task 3: Create and read dump files</b>
   - [Create and read dump files](https://github.com/RD-NavarreteV/TCPDumpTask3/blob/main/Save%20Captured%20Packets.md)
