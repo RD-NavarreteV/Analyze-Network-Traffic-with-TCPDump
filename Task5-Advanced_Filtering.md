@@ -12,7 +12,7 @@
 <br /><br />•	Breakdown of the expression:
 <br />•	Extract the TCP header length offset.
 <br />•	Capture packets with a GET request (hex values for "GET ").
-<br /><img src="https://i.imgur.com/rBG1Nqq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="-" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br /><br /><h3>3.	Execute the Script:</h3>
 <br />•	Give execution permissions: chmod +x advanced_capture.sh
 <br />•	Run the script: ./advanced_capture.sh
