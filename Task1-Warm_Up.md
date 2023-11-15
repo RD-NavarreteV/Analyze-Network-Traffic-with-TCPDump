@@ -4,7 +4,7 @@
 •	Type tcpdump in the terminal and observe the captured network traffic.
 <br />
 •	Note that it continuously captures packets until you stop it.
-<img src="https://i.imgur.com/rBG1Nqq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="-" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <h3>2.	Stop TCP Dump:</h3>
