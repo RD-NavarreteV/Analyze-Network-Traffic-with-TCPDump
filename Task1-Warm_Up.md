@@ -73,9 +73,7 @@
 <br />
 <br />
 <h3>Conclusion:</h3>
-<br />
 The warm-up task provides an introduction to TCP dump, its basic commands, and options. It sets the foundation for the subsequent tasks, where you'll create a script to monitor network traffic to a specific website.
-
 <br />
 
 <h2>Languages and Utilities Used</h2>
