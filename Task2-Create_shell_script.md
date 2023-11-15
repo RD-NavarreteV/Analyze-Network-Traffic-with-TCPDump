@@ -11,7 +11,7 @@
 <br /><br /><h3>3.	Write the TCP Dump Command:</h3>
 <br />•	In the watch.sh file, construct the TCP dump command:
 <br />#!/bin/bash tcpdump -n -t -c 10 -XX host skyward66.com 
-<img src="https://i.imgur.com/rBG1Nqq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="-" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />•	This command captures the first 10 packets to and from skyward66.com and displays them in hex and ASCII.
 <br /><br /><h3>4.	Save and Set Execution Permissions:</h3>
 <br />•	Save the file and set execution permissions:
