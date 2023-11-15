@@ -72,11 +72,9 @@
 •	Familiarize yourself with the tabs open in the browser, including Visual Studio Code, WireShark, and others.
 <br />
 <br />
-<h3>16.	Closing Instructions:</h3>
-•	Understand that certain parts of the project involve watching a pre-recorded video, and instructions will be provided for when you need to follow along and when you can pause.
+<h3>Conclusion:</h3>
 <br />
-<br />
-Conclusion: The warm-up task provides an introduction to TCP dump, its basic commands, and options. It sets the foundation for the subsequent tasks, where you'll create a script to monitor network traffic to a specific website.
+The warm-up task provides an introduction to TCP dump, its basic commands, and options. It sets the foundation for the subsequent tasks, where you'll create a script to monitor network traffic to a specific website.
 
 <br />
 
