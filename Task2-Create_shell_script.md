@@ -31,22 +31,18 @@
 <br />./watchdog.sh 
 <br />•	Observe the captured packets on the terminal.
 <br /><br /><h3>Filter by Port:</h3>
-<br />•	Modify the TCP dump command to filter by port (e.g., HTTPS port 443):
+<br />Modify the TCP dump command to filter by port (e.g., HTTPS port 443):
 <br />tcpdump -n -t -c 10 -XX port 443 
-<br />•	Save the file, set execution permissions, and execute the updated script.
+<br />Save the file, set execution permissions, and execute the updated script.
 <br /><br /><h3>Filter by Host and Port:</h3>
-<br />•	Modify the TCP dump command to filter both by host and port:
+<br />Modify the TCP dump command to filter both by host and port:
 <br />tcpdump -n -t -c 10 -XX host skyward66.com and port 443 
-<br />•	Save the file, set execution permissions, and execute the updated script.
+<br />Save the file, set execution permissions, and execute the updated script.
 <br /><br /><h3>Filter by Direction:</h3>
-<br />•	Explore filtering by direction (source or destination):
-<br />•	For incoming traffic: tcpdump -n -t -c 10 -XX src host skyward66.com
-<br />•	For outgoing traffic: tcpdump -n -t -c 10 -XX dst host skyward66.com
-<br />•	Save the file, set execution permissions, and test both directions.
+<br />Explore filtering by direction (source or destination):
+<br />For incoming traffic: tcpdump -n -t -c 10 -XX src host skyward66.com
+<br />For outgoing traffic: tcpdump -n -t -c 10 -XX dst host skyward66.com
+<br />Save the file, set execution permissions, and test both directions.
 <br /><br /><h3>Conclusion:</h3>
-<br />•	You've successfully created a shell script to capture network traffic using TCP dump with various filtering options. In the next task, you'll learn how to interpret the captured packets.
-<br />
-<br />
-<br />
-<br />
+<br />You've successfully created a shell script to capture network traffic using TCP dump with various filtering options. In the next task, you'll learn how to interpret the captured packets.
 <br />
