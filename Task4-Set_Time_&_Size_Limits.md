@@ -7,7 +7,7 @@
 <h3>1.	Create Dump File with Time Limit:</h3>
 <img src="https://i.imgur.com/k67ve6s.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />•	Add the -G option to specify a time limit for the dump file in seconds.
-<br /><br />Example: tcpdump -#XXtttt -w capture.pcap -G 600
+<br /><br />Example: tcpdump -#XXtttt -w captured.pcap -G 600
 <br />This command creates a dump file (captured.pcap) and updates it every 600 seconds (10 minutes).
 <br /><br /><h3>2.	Generate Traffic and Test:</h3>
 <img src="https://i.imgur.com/f58Y0fu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -16,7 +16,7 @@
 <br /><br /><h3>3.	Create Dump File with Size Limit:</h3>
 <img src="https://i.imgur.com/Ljayeky.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />•	Add the -C option to specify a size limit for the dump file in million bytes.
-<br /><br />Example: tcpdump -#XXtttt -w capture.pcap -C 1
+<br /><br />Example: tcpdump -#XXtttt -w captured.pcap -C 1
 <br />This command creates a dump file (captured.pcap) and generates a new file when it reaches 1 million bytes.
 <br /><br /><h3>4.	Generate Traffic and Test Size Limit:</h3>
 <img src="https://i.imgur.com/BOnWx2k.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
