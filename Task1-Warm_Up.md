@@ -8,8 +8,8 @@
 <br />
 <br />
 <h3>2.	Stop TCP Dump:</h3>
+<img src="https://i.imgur.com/9GeOZqU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 •	To stop the TCP dump, press Ctrl + C in the terminal.
-<img src="-" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <h3>3.	Explore Basic TCP Dump Options:</h3>
