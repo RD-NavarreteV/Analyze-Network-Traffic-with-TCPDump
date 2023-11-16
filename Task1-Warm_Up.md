@@ -37,11 +37,13 @@
 <br />
 <br />
 <h3>6.	Display Packet Contents in Hex and ASCII:</h3>
+<img src="https://i.imgur.com/nVh4tkF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/Rrouk20.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 •	Use the command tcpdump -XX to display packet contents in both hex and ASCII.
 <br />
 <br />
 <h3>7.	Display Timestamps:</h3>
+<img src="https://i.imgur.com/jWWE0bg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/w2gFbxO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 •	Use the command tcpdump -tttt to display timestamps for each packet.
 <br />
