@@ -1,10 +1,10 @@
 <h1>Task 1: Overview and Warm Up</h1>
 
 <h3>1.	Execute Basic TCP Dump Command:</h3>
+<img src="https://i.imgur.com/Y7nlhqk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 •	Type tcpdump in the terminal and observe the captured network traffic.
 <br />
 •	Note that it continuously captures packets until you stop it.
-<img src="https://i.imgur.com/Y7nlhqk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <h3>2.	Stop TCP Dump:</h3>
