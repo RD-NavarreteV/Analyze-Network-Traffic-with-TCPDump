@@ -10,15 +10,16 @@
 <br /><br /><h3>2.	Open Integrated Terminal:</h3>
 <img src="https://i.imgur.com/Imt9Ml4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/RC2jf42.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />•	Right-click on the Explorer panel and create a new file named watch.sh.
+<br />•	Right-click on the Explorer panel and create a new file named watchdog.sh.
 <br /><br /><h3>3.	Write the TCP Dump Command:</h3>
 <img src="https://i.imgur.com/GBGfzj6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />•	In the watch.sh file, construct the TCP dump command:
+<br />•	In the watchdog.sh file, construct the TCP dump command:
 <br />#!/bin/bash tcpdump -n -t -c 10 -XX host skyward66.com 
 <br />•	This command captures the first 10 packets to and from skyward66.com and displays them in hex and ASCII.
 <br /><br /><h3>4.	Save and Set Execution Permissions:</h3>
+<img src="https://i.imgur.com/ybIS9gw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />•	Save the file and set execution permissions:
-<br />chmod +x watch.sh 
+<br />chmod +x watchdog.sh 
 <br /><br /><h3>5.	Open Integrated Terminal Again:</h3>
 <img src="https://i.imgur.com/ZpYVoeE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />•	Open an integrated terminal in Visual Studio Code.
@@ -27,26 +28,22 @@
 <img src="https://i.imgur.com/9StUarQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/Irxq5wg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />•	Run the shell script:
-<br />./watch.sh 
+<br />./watchdog.sh 
 <br />•	Observe the captured packets on the terminal.
-<br /><br /><h3>7.	Filter by Port:</h3>
+<br /><br /><h3>Filter by Port:</h3>
 <br />•	Modify the TCP dump command to filter by port (e.g., HTTPS port 443):
 <br />tcpdump -n -t -c 10 -XX port 443 
 <br />•	Save the file, set execution permissions, and execute the updated script.
-<br /><br /><h3>8.	Filter by Host and Port:</h3>
+<br /><br /><h3>Filter by Host and Port:</h3>
 <br />•	Modify the TCP dump command to filter both by host and port:
 <br />tcpdump -n -t -c 10 -XX host skyward66.com and port 443 
 <br />•	Save the file, set execution permissions, and execute the updated script.
-<br /><br /><h3>9.	Filter by Direction:</h3>
+<br /><br /><h3>Filter by Direction:</h3>
 <br />•	Explore filtering by direction (source or destination):
 <br />•	For incoming traffic: tcpdump -n -t -c 10 -XX src host skyward66.com
 <br />•	For outgoing traffic: tcpdump -n -t -c 10 -XX dst host skyward66.com
 <br />•	Save the file, set execution permissions, and test both directions.
-<br /><br /><h3>10.	Explore Other Options:</h3>
-<br />•	Experiment with other TCP dump options (e.g., -w for writing to a file) based on the project's requirements.
-<br /><br /><h3>11.	Optional Assessment:</h3>
-<br />•	Participate in the optional assessment to test your understanding of the concepts covered in Task 2.
-<br /><br /><h3>12.	Conclusion:</h3>
+<br /><br /><h3>Conclusion:</h3>
 <br />•	You've successfully created a shell script to capture network traffic using TCP dump with various filtering options. In the next task, you'll learn how to interpret the captured packets.
 <br />
 <br />
