@@ -23,14 +23,13 @@
 <br />•	Wireshark displays the captured packets in a user-friendly format.
 <br />•	Explore the details of each packet, including source and destination IP addresses, protocols, lengths, and more.
 <br />•	Click on a specific packet to view its breakdown and interpretation.
-<br /><br /><h3>6.	Understand Wireshark Features:</h3>
+<br /><br /><h3>Understand Wireshark Features:</h3>
 <br />•	Familiarize yourself with Wireshark's features, such as filtering, coloring rules, and packet details.
 <br />•	Experiment with various options to customize the view based on your analysis needs.
-<br /><br /><h3>7.	Advanced Wireshark Features (Optional):</h3>
+<br /><br /><h3>Advanced Wireshark Features:</h3>
 <br />•	Explore advanced features in Wireshark, such as packet coloring rules, filtering expressions, and protocol-specific analysis.
-<br /><br /><h3>8.	Understand the Value of Wireshark:</h3>
+<br /><br /><h3>Understand the Value of Wireshark:</h3>
 <br />•	Recognize the value of using Wireshark for in-depth packet analysis and visualization.
-<br /><br /><h3>9.	Closing Instructions:</h3>
-<br />•	Understand that in the next task, you'll learn how to set time and size limits for capturing packets to create more manageable dump files.
-<br />Conclusion: In this task, you've learned how to save captured packets to a dump file using TCP dump and analyze the contents of the dump file using Wireshark. Wireshark provides a user-friendly interface for detailed packet inspection and interpretation.
+<br /><br /><h3>Conclusion: </h3>
+<br />In this task, you've learned how to save captured packets to a dump file using TCP dump and analyze the contents of the dump file using Wireshark. Wireshark provides a user-friendly interface for detailed packet inspection and interpretation.
 <br />
