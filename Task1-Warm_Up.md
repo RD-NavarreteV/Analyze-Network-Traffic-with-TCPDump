@@ -59,23 +59,23 @@
 <br />
 <br />
 <h3>Explore Time Stamps and Interfaces:</h3>
-•	Use the command tcpdump -t -i ens5 to display human-readable time stamps for packets on a specific interface.
+Use the command tcpdump -t -i ens5 to display human-readable time stamps for packets on a specific interface.
 <br />
 <br />
 <h3>Save for Later Analysis:</h3>
-•	Optionally, use the command tcpdump -w <output_file> to save captured packets to a file for later analysis (e.g., tcpdump -w capture.pcap).
+Optionally, use the command tcpdump -w <output_file> to save captured packets to a file for later analysis (e.g., tcpdump -w capture.pcap).
 <br />
 <br />
 <h3>Understand Other Options:</h3>
-•	Explore other options by using man tcpdump to access the manual and learn more about available command-line options.
+Explore other options by using man tcpdump to access the manual and learn more about available command-line options.
 <br />
 <br />
 <h3>Optional Content:</h3>
-•	Explore optional tasks mentioned in the project to enhance learning.
+Explore optional tasks mentioned in the project to enhance learning.
 <br />
 <br />
 <h3>Bookmark Tabs:</h3>
-•	Familiarize yourself with the tabs open in the browser, including Visual Studio Code, WireShark, and others.
+Familiarize yourself with the tabs open in the browser, including Visual Studio Code, WireShark, and others.
 <br />
 <br />
 <h3>Conclusion:</h3>
