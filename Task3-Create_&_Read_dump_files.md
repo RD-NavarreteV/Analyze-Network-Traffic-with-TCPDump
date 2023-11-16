@@ -12,7 +12,7 @@
 <br />•	Generate traffic by accessing the specified website (e.g., skyward66.com) and allow TCP dump to capture 10 packets.
 <br /><br /><h3>2.	Explore the Dump File:</h3>
 <img src="https://i.imgur.com/wGJyMSH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://https://i.imgur.com/sLBf7Y5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/sLBf7Y5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />•	Open the dump file using TCP dump and examine the captured packets:
 <br />tcpdump -r capture.pcap -XX -tttt 
 <br />•	Observe the contents of the dump file as if it were freshly captured on the wire.
