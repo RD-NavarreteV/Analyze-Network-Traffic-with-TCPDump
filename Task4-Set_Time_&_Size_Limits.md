@@ -26,12 +26,11 @@
 <br /><br /><h3>6.	Generate Traffic and Test Combined Limits:</h3>
 <br />•	Execute the script and generate traffic.
 <br />•	Observe that the dump file is updated every 10 minutes and stays within the size limit.
-<br /><br /><h3>7.	Understand Time and Size Limits:</h3>
+<br /><br /><h3>Understand Time and Size Limits:</h3>
 <br />•	Acknowledge that the -G option sets the time limit in seconds, and the -C option sets the size limit in million bytes.
-<br /><br /><h3>8.	Review and Cleanup:</h3>
+<br /><br /><h3>Review and Cleanup:</h3>
 <br />•	Check the generated dump files to see how they adhere to the specified time and size limits.
 <br />•	Optionally, delete the dump files to keep your system clean.
-<br /><br /><h3>9.	Optional Assessment Task:</h3>
-<br />•	Consider participating in the optional assessment task provided to test your understanding.
-<br /><br />Conclusion: In this task, you've learned how to set time and size limits for capturing packets using TCP dump. This is useful for creating manageable dump files for specific durations and preventing file sizes from becoming overly large.
+<br /><br /><h3>Conclusion: </h3>
+<br /><br />In this task, you've learned how to set time and size limits for capturing packets using TCP dump. This is useful for creating manageable dump files for specific durations and preventing file sizes from becoming overly large.
 <br />
