@@ -13,17 +13,13 @@ These are just some examples of tcpdump commands, and the tool offers a wide ran
 
 - <b>Task 1</b> - [Overview and warm up](https://github.com/RD-NavarreteV/Analyze-Network-Traffic-with-TCPDump/blob/main/Task1-Warm_Up.md)
  
-- <b>Task 2</b>
-  - [Create shell script and explore more options](https://github.com/RD-NavarreteV/Analyze-Network-Traffic-with-TCPDump/blob/main/Task2-Create_shell_script.md)
+- <b>Task 2</b> - [Create shell script and explore more options](https://github.com/RD-NavarreteV/Analyze-Network-Traffic-with-TCPDump/blob/main/Task2-Create_shell_script.md)
  
-- <b>Task 3</b>
-  - [Create and read dump files](https://github.com/RD-NavarreteV/Analyze-Network-Traffic-with-TCPDump/blob/main/Task3-Create_%26_Read_dump_files.md)
+- <b>Task 3</b> - [Create and read dump files](https://github.com/RD-NavarreteV/Analyze-Network-Traffic-with-TCPDump/blob/main/Task3-Create_%26_Read_dump_files.md)
  
-- <b>Task 4</b>
-  - [Create sequence of dump files with size and time limits](https://github.com/RD-NavarreteV/Analyze-Network-Traffic-with-TCPDump/blob/main/Task4-Set_Time_%26_Size_Limits.md)
+- <b>Task 4</b>  - [Create sequence of dump files with size and time limits](https://github.com/RD-NavarreteV/Analyze-Network-Traffic-with-TCPDump/blob/main/Task4-Set_Time_%26_Size_Limits.md)
  
-- <b>Task 5</b>
-  - [Advanced expressions for more filtering options](https://github.com/RD-NavarreteV/Analyze-Network-Traffic-with-TCPDump/blob/main/Task5-Advanced_Filtering.md)
+- <b>Task 5</b>  - [Advanced expressions for more filtering options](https://github.com/RD-NavarreteV/Analyze-Network-Traffic-with-TCPDump/blob/main/Task5-Advanced_Filtering.md)
  
 <br />
 
