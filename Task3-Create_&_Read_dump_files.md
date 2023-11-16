@@ -8,13 +8,13 @@
 <img src="https://i.imgur.com/XhwHRf1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/7i95Khr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 •	Execute the TCP dump command with the -w option to write the captured packets to a dump file named capture.pcap.
-<br />tcpdump -n -t -c 10 -w capture.pcap 
+<br />tcpdump -n -t -c 10 -w captured.pcap 
 <br />•	Generate traffic by accessing the specified website (e.g., skyward66.com) and allow TCP dump to capture 10 packets.
 <br /><br /><h3>2.	Explore the Dump File:</h3>
 <img src="https://i.imgur.com/wGJyMSH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/sLBf7Y5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 •	Open the dump file using TCP dump and examine the captured packets:
-<br />tcpdump -r capture.pcap -XX -tttt 
+<br />tcpdump -r captured.pcap -XX -tttt 
 <br />•	Observe the contents of the dump file as if it were freshly captured on the wire.
 <br /><br /><h3>3.	Open Wireshark:</h3>
 <img src="https://i.imgur.com/8LUtOdl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
