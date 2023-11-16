@@ -7,28 +7,28 @@
 <h3>1.	Capture Packets and Save to Dump File:</h3>
 <img src="https://i.imgur.com/XhwHRf1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/7i95Khr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />•	Execute the TCP dump command with the -w option to write the captured packets to a dump file named capture.pcap.
+•	Execute the TCP dump command with the -w option to write the captured packets to a dump file named capture.pcap.
 <br />tcpdump -n -t -c 10 -w capture.pcap 
 <br />•	Generate traffic by accessing the specified website (e.g., skyward66.com) and allow TCP dump to capture 10 packets.
 <br /><br /><h3>2.	Explore the Dump File:</h3>
 <img src="https://i.imgur.com/wGJyMSH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/sLBf7Y5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />•	Open the dump file using TCP dump and examine the captured packets:
+•	Open the dump file using TCP dump and examine the captured packets:
 <br />tcpdump -r capture.pcap -XX -tttt 
 <br />•	Observe the contents of the dump file as if it were freshly captured on the wire.
 <br /><br /><h3>3.	Open Wireshark:</h3>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />•	Open a new terminal and type wireshark to launch the Wireshark application.
+<img src="https://i.imgur.com/8LUtOdl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+•	Open a new terminal and type wireshark to launch the Wireshark application.
 <br /><br /><h3>4.	Load Captured Dump File in Wireshark:</h3>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />•	In Wireshark, click on the folder icon to open a file.
+<img src="https://i.imgur.com/0RCCxvy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/d9vDMWx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+•	In Wireshark, click on the folder icon to open a file.
 <br />•	Navigate to the location where the dump file is saved (e.g., desktop/capture.pcap).
 <br />•	Open the dump file.
 <br /><br /><h3>5.	Analyze Captured Packets in Wireshark:</h3>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />•	Wireshark displays the captured packets in a user-friendly format.
+<img src="https://i.imgur.com/9bK7z1T.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/kF21w5K.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+•	Wireshark displays the captured packets in a user-friendly format.
 <br />•	Explore the details of each packet, including source and destination IP addresses, protocols, lengths, and more.
 <br />•	Click on a specific packet to view its breakdown and interpretation.
 <br /><br /><h3>Understand Wireshark Features:</h3>
