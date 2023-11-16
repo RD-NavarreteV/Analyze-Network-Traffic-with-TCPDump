@@ -68,10 +68,6 @@
 •	Explore other options by using man tcpdump to access the manual and learn more about available command-line options.
 <br />
 <br />
-<h3>Prepare for the Next Tasks:</h3>
-•	Understand the objective of the project: to create a script to monitor traffic to a specific website (mindskywards66.com).
-<br />
-<br />
 <h3>Optional Content:</h3>
 •	Explore optional tasks mentioned in the project to enhance learning.
 <br />
