@@ -26,63 +26,58 @@
 <br />
 <br />
 <h3>4.	Capture and Display Packets with Limited Count:</h2>
+<img src="https://i.imgur.com/HwNkvXx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 •	Use the command tcpdump -c 10 -n -q to capture and display the first 10 packets with minimal information.
-<img src="https://i.imgur.com/Y7nlhqk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <h3>5.	Display Packet Contents in ASCII:</h3>
+<img src="https://i.imgur.com/NhpXWkC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/oBVpDUe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 •	Use the command tcpdump -A to display packet contents in ASCII.
-<img src="-" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <h3>6.	Display Packet Contents in Hex and ASCII:</h3>
+<img src="https://i.imgur.com/Rrouk20.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 •	Use the command tcpdump -XX to display packet contents in both hex and ASCII.
-<img src="-" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <h3>7.	Display Timestamps:</h3>
+<img src="https://i.imgur.com/w2gFbxO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 •	Use the command tcpdump -tttt to display timestamps for each packet.
-<img src="-" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <h3>8.	Show Available Network Interfaces:</h3>
+<img src="https://i.imgur.com/YSAx73H.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 •	Use the command tcpdump -D to list all available network interfaces.
-<img src="-" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <h3>9.	Filter by Interface:</h3>
+<img src="https://i.imgur.com/M2lYvkm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 •	Use the command tcpdump -i <interface> to capture packets only from a specific network interface (e.g., tcpdump -i ens5).
-<img src="-" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<h3>10.	Explore Time Stamps and Interfaces:</h3>
-<img src="-" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<h3>Explore Time Stamps and Interfaces:</h3>
 •	Use the command tcpdump -t -i ens5 to display human-readable time stamps for packets on a specific interface.
 <br />
 <br />
-<h3>11.	Save for Later Analysis:</h3>
+<h3>Save for Later Analysis:</h3>
 •	Optionally, use the command tcpdump -w <output_file> to save captured packets to a file for later analysis (e.g., tcpdump -w capture.pcap).
-<img src="-" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<h3>12.	Understand Other Options:</h3>
+<h3>Understand Other Options:</h3>
 •	Explore other options by using man tcpdump to access the manual and learn more about available command-line options.
-<img src="-" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<h3>13.	Prepare for the Next Tasks:</h3>
+<h3>Prepare for the Next Tasks:</h3>
 •	Understand the objective of the project: to create a script to monitor traffic to a specific website (mindskywards66.com).
-<img src="-" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<h3>14.	Optional Content:</h3>
+<h3>Optional Content:</h3>
 •	Explore optional tasks mentioned in the project to enhance learning.
-<img src="-" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<h3>15.	Bookmark Tabs:</h3>
+<h3>Bookmark Tabs:</h3>
 •	Familiarize yourself with the tabs open in the browser, including Visual Studio Code, WireShark, and others.
-<img src="-" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <h3>Conclusion:</h3>
