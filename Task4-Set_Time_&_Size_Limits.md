@@ -27,7 +27,7 @@
 <br />•	Add both -G and -C options to create a dump file with time and size limits.
 <br /><br />Example: tcpdump -n -t -G 600 -C 1 -w capture.pcap
 <br />This command updates the dump file every 10 minutes and creates a new file when the size limit is reached.
-<br /><br /><h3>6.	Generate Traffic and Test Combined Limits:</h3>
+<br /><br /><h3>Generate Traffic and Test Combined Limits:</h3>
 <br />•	Execute the script and generate traffic.
 <br />•	Observe that the dump file is updated every 10 minutes and stays within the size limit.
 <br /><br /><h3>Understand Time and Size Limits:</h3>
